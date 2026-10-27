@@ -15,3 +15,9 @@ setup (`A`–`D`) holding what `/mobium bench` wrote to `<game dir>/mobium-bench
 
 `python3 benchmark/bench_round.py` in Mobium's repository writes a round here and commits and pushes it. Rounds
 measured by hand are copied in with the same layout.
+
+## Commit ids from before the history rewrite
+
+On 27 Oct 2026 these files were removed from Mobium's history, which gave almost every Mobium commit a new id. Ids
+from before that day (the `build` column, `mobium-build.properties` in older jars, `docs/benchmarks.md`) name the old
+commits; [`commit-map.txt`](commit-map.txt) gives the new id for each old one: `grep ^8d26a26 commit-map.txt`.
