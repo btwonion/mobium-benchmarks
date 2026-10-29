@@ -16,6 +16,12 @@ setup (`A`–`D`) holding what `/mobium bench` wrote to `<game dir>/mobium-bench
 `python3 benchmark/bench_round.py` in Mobium's repository writes a round here and commits and pushes it. Rounds
 measured by hand are copied in with the same layout.
 
+## Players' files
+
+`players/<yyyy-mm-dd>-<machine>/` holds one `/mobium benchmark` file each, as the player sent it (GitHub issues with
+the label `benchmark`, Discord): the medians of Mobium off and on per scene, the gains and the machine. Their results
+are in Mobium's `docs/benchmarks.md`, *Players' results*, which names the issue each file came from.
+
 ## Commit ids from before the history rewrite
 
 On 27 Oct 2026 these files were removed from Mobium's history, which gave almost every Mobium commit a new id. Ids
