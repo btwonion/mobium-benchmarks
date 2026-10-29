@@ -8,7 +8,8 @@ decided there.
 One folder per round: `<yyyy-mm-dd>-<machine>/` (a second round of the day appends `-<build>`), with a folder per
 setup (`A`–`D`) holding what `/mobium bench` wrote to `<game dir>/mobium-bench/`:
 
-- `summary.csv`: one row per run (frame times, stage timers, build, display, power, GPU clock)
+- `summary.csv`: one row per run (frame times, stage timers, build, display, power, GPU clock; `os` and `driver`
+  from Mobium after 0.2.0)
 - `suite-*.csv`, `gatea-*.csv`, `gateb-*.csv`, `gatec-*.csv`, `stages-*.csv`: the medians of `/mobium suite`, the
   gates and `/mobium stages`
 - `<scene>-<setup>-<yyyymmdd-hhmmss>.csv.gz`: every frame of one run, gzipped
